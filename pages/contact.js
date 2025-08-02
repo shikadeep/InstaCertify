@@ -94,100 +94,64 @@ export default function Contact() {
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z" />
                                 </svg>Get a quote</Link></div>
                         </div>
-                        {/* <div className="row mt-50">
-                            <div className="col-xl-3 col-md-6 mb-50">
-                                <div className="cardService">
-                                    <div className="cardImage wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/contact/branch1.png" alt="instacertify" /></div>
-                                    <div className="cardInfo wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/delivery.png" alt="instacertify" />
-                                        <h6 className="color-brand-2 mb-15">instacertify Shipping Co. USA</h6>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Address:</strong>123 Main Street, Suite 500, New York, NY 10001, USA</p>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Phone Number:</strong>+1-555-555-5555</p>
-                                        <p className="font-xs color-grey-900"><strong className="color-brand-2">Email:</strong>contact@instacertify.eu.com</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-3 col-md-6 mb-50">
-                                <div className="cardService">
-                                    <div className="cardImage wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/contact/branch2.png" alt="instacertify" /></div>
-                                    <div className="cardInfo wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/plane.png" alt="instacertify" />
-                                        <h6 className="color-brand-2 mb-15">Shipping Co. Europe</h6>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Address:</strong>25 Avenue des Champs-Élysées, Paris, France</p>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Phone Number:</strong>+33 1 55 73 70 00</p>
-                                        <p className="font-xs color-grey-900"><strong className="color-brand-2">Email:</strong>contact.eu@instacertify.eu.com</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-3 col-md-6 mb-50">
-                                <div className="cardService">
-                                    <div className="cardImage wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/contact/branch3.png" alt="instacertify" /></div>
-                                    <div className="cardInfo wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/delivery.png" alt="instacertify" />
-                                        <h6 className="color-brand-2 mb-15">Shipping Co. Asia Pacific</h6>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Address:</strong>1-2-1 Otemachi, Chiyoda-ku, Tokyo, Japan</p>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Phone Number:</strong>+81 3 5251 5300</p>
-                                        <p className="font-xs color-grey-900"><strong className="color-brand-2">Email:</strong>contact.jp@instacertify.eu.com</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-3 col-md-6 mb-50">
-                                <div className="cardService">
-                                    <div className="cardImage wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/contact/branch4.png" alt="instacertify" /></div>
-                                    <div className="cardInfo wow animate__animated animate__fadeIn"><img src="/assets/imgs/page/homepage1/plane.png" alt="instacertify" />
-                                        <h6 className="color-brand-2 mb-15">Shipping Co. Middle East</h6>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Address:</strong>Dubai Logistics City, Building B, Office 203, Dubai, UAE</p>
-                                        <p className="font-xs color-grey-900 mb-10"><strong className="color-brand-2">Phone Number:</strong>+971 4 887 8000</p>
-                                        <p className="font-xs color-grey-900"><strong className="color-brand-2">Email:</strong>contact@instacertify.eu.com</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> */}
-                        <div className="mt-20 box-background-offer">
-                            <div className="bg-under" />
-                            <div className="row">
-                                <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
-                                    <div className="card-offer hover-up">
-                                        <div className="card-image"><img src="/assets/imgs/page/homepage1/certifi-icon.svg" alt="instacertify" /></div>
-                                        <div className="card-info">
-                                            <h5 className="color-brand-2 mb-15">Certification</h5>
-                                            <p className="font-sm color-grey-900 mb-35">We offers a wide range of services to help buisness comply with industry standard and regulation.</p>
-                                            <div className="box-button-offer mb-30" style={{ paddingTop: '20px' }}><a className="btn btn-link font-sm color-brand-2" href="/certification">View Details<span>
-                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                                </svg></span></a></div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
-                                    <div className="card-offer hover-up">
-                                        <div className="card-image"><img src="/assets/imgs/page/homepage1/testing-icon.svg" alt="instacertify" />
-                                        </div>
-                                        <div className="card-info">
-                                            <h5 className="color-brand-2 mb-15">Testing </h5>
-                                            <p className="font-sm color-grey-900 mb-35">Our state-of-the-art testing facilities and expert team are equipped to perform rigorous testing for variety of products.</p>
-                                            <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2" href="/testing">View Details<span>
-                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                                </svg></span></a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
-                                    <div className="card-offer hover-up">
-                                        <div className="card-image"><img src="/assets/imgs/page/homepage1/equipement-icon.svg" alt="instacertify" />
-                                        </div>
-                                        <div className="card-info">
-                                            <h5 className="color-brand-2 mb-15">Equipement</h5>
-                                            <p className="font-sm color-grey-900 mb-35">We provide advanced tools and machinery and ensure businesses meet top safety and performance standards.</p>
-                                            <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2" href="/eqipement">View Details<span>
-                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                                </svg></span></a></div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
+                        {/* //our services */}
+                         <div className="container">
+                    
+                    <div className="row align-items-end">
+                        <div className="col-lg-8 col-md-8 mb-30">
+                            {/* <p className="font-md color-gray-700 wow animate__animated animate__fadeIn"> </p> */}
                         </div>
+                        
+                    </div>
+                    <div className="mt-20 box-background-offer">
+                        <div className="bg-under" />
+                        <div className="row">
+                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
+                                <div className="card-offer hover-up">
+                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/certifi-icon.svg" alt="instacertify" /></div>
+                                    <div className="card-info">
+                                        <h5 className="color-brand-2 mb-15">Certification</h5>
+                                        <p className="font-sm color-grey-900 mb-35">We offers a wide range of services to help buisness comply with industry standard and regulation.</p>
+                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg></span></a></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
+                                <div className="card-offer hover-up">
+                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/testing-icon.svg" alt="instacertify" />
+                                    </div>
+                                    <div className="card-info">
+                                        <h5 className="color-brand-2 mb-15">Testing </h5>
+                                        <p className="font-sm color-grey-900 mb-35">Our state-of-the-art testing facilities and expert team are equipped to perform rigorous testing for variety of products.</p>
+                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg></span></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 wow animate__animated animate__fadeIn">
+                                <div className="card-offer hover-up">
+                                    <div className="card-image"><img src="/assets/imgs/page/homepage1/equipement-icon.svg" alt="instacertify" />
+                                    </div>
+                                    <div className="card-info">
+                                        <h5 className="color-brand-2 mb-15">Equipement</h5>
+                                        <p className="font-sm color-grey-900 mb-35">We provide advanced tools and machinery and ensure businesses meet top safety and performance standards.</p>
+                                        <div className="box-button-offer mb-30"><a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg></span></a></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
 
                     </div>
                 </section>

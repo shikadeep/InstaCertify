@@ -65,7 +65,7 @@ export default function News1Slider() {
 
 
                             <p className="font-sm color-grey-500 mt-10">
-                                {truncate("IMTEX 2025, the premier machine tool and manufacturing technology trade event and brings together global innovators", 80)}
+                                {truncate("IMTEX 2025, the premier machine tool and manufacturing technology trade event and brings together global innovators", 70)}
                             </p>
                             <div className="line-border" />
                             <div className="mt-5 d-flex align-items-center justify-content-between pt-0"><Link className="btn btn-link font-sm color-brand-2" href="#">View
@@ -140,7 +140,7 @@ export default function News1Slider() {
                         <div className="card-info"><Link href="/blog-sing">
                             <h5 className="color-brand-2">PLASTPACK 2025</h5>
                         </Link>
-                            <p className="font-sm color-grey-500 mt-10">{truncate(" PLASTPACK 2025 presents the most recent innovations in plastic packaging technology and sustainable alternatives.", 80)}</p>
+                            <p className="font-sm color-grey-500 mt-10">{truncate(" PLASTPACK 2025 presents the most recent innovations in plastic packaging technology and sustainable alternatives.", 70)}</p>
                             <div className="line-border" />
                             <div className="mt-5 d-flex align-items-center justify-content-between pt-0"><Link className="btn btn-link font-sm color-brand-2" href="#">View
                                 Details<span>
@@ -160,7 +160,7 @@ export default function News1Slider() {
                         <div className="card-info"><Link href="/blog-sing">
                             <h5 className="color-brand-2">Power On 2025</h5>
                         </Link>
-                            <p className="font-sm color-grey-500 mt-10">{truncate("Power On 2025 brings together energy industry experts to demonstrate renewable breakthroughs and smart grid solutions. Experience ground-breaking technology.", 80)}</p>
+                            <p className="font-sm color-grey-500 mt-10">{truncate("Power On 2025 brings together energy industry experts to demonstrate renewable breakthroughs and smart grid solutions", 70)}</p>
                             <div className="line-border" />
                             <div className="mt-5 d-flex align-items-center justify-content-between pt-0"><Link className="btn btn-link font-sm color-brand-2" href="#">View
                                 Details<span>
