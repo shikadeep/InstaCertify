@@ -1472,8 +1472,7 @@ body {
 }
 .box-swiper .swiper-container .brand-logo img{
  max-width: 150px;
- min-width: 100px;
- padding: 30px 60px;
+ padding: 40px 70px;
 }
 .box-swiper .swiper-container .item-logo:hover {
   border: 1px solid #ccc;

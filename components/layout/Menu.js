@@ -20,7 +20,7 @@ export default function Menu() {
 
                 
                 {/* services */}
-                <li className="has-children"><Link href="#">Certification</Link>
+                <li className="has-children"><Link href="/certification">Certification</Link>
                     <div className="sub-menu four-col">
                         <div className="menu-col">
                             <h6 className="color-brand-2 mb-15">Asia Pacific </h6>

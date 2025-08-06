@@ -32,16 +32,15 @@ export default function Home() {
                 <Projects1 />
                 
                 {/* <Projects3 /> */}
-                <Faq3/>
-                {/* <Info6 /> */}
-                {/* <div className="line-border mb-3 mt-7"></div> */}
-                {/* <Requestquote2 /> */}
-                {/* <Whychooseus3 /> */}
+               
+               
                 <Info1 />
-                {/* <Faqs1 /> */}
-                <News1 />
+                
+                {/* <News1 /> */}
                 {/* <News2 /> */}
+                 <Faq3/>
                 <Newsletter1 />
+                
 
                 {/* <Hero1 />
                 <Brands1 />

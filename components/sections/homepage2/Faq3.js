@@ -31,26 +31,40 @@ export default function Faq3() {
 
         <section className="section pt-80 mb-70 bg-faqs">
                 <div className="container">
-                <div  className="" >
-                        <div className="">
+                <div  className="row" >
+                        <div className="col-lg-6">
                             <div className="box-faqs-left">
-                                <h2 className=" mb-20 wow animate__animated animate__fadeIn">FAQs</h2>
-                                <p className="font-md color-grey-700 mb-50 wow animate__animated animate__fadeIn">Feeling
-                                    inquisitive? Have a read through some of our FAQs or contact our supporters for help</p>
-                                   
+                                <h2 className=" mb-50 wow animate__animated animate__fadeIn">FAQs</h2>
+                               
+                                   <div className="box-gallery-faqs">
+                                    <div className="image-top"><img src="/assets/imgs/page/homepage1/faq-img-5.jpg" alt="transp" />
+                                    </div>
+                                    
+                                </div>
                                 
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6" 
+                        >
                             <div className="box-accordion">
-                                <Accordion />
-                                <div className="line-border mt-50 mb-50" />
-                                <h3 className="color-brand-2 wow animate__animated animate__fadeIn">Nead more help?</h3>
-                                <div className="mt-20"><Link className="btn btn-brand-1-big mr-20 wow animate__animated animate__fadeIn" href="/contact">Contact Us</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn
-                                    More
-                                    <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                    </svg></Link></div>
+                                <div className="item-faqs-2 mb-30"><Link href='/'>
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">What services does Instacertify offer?</h6></Link>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Instacertify provides comprehensive product testing and certification compliance services, including BIS, CRS, ISI, CDSCO, WPC, IMEI-DOT, GMARK, LMPC, SFDA, CIB, EPR, and E-waste Management.</p>
+                                </div>
+                                <div className="item-faqs-2 mb-30"><Link href='/'>
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">How can I request a certification or testing service?</h6></Link>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">
+                                    You can easily request our services by filling out the inquiry form on our website or by contacting us directly through our provided phone number or email. Our team will guide you through the process and provide the necessary assistance.</p>
+                                </div>
+                                <div className="item-faqs-2 mb-30"><Link href='/'>
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">What industries do you serve?</h6></Link>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">We serve a wide range of industries, including manufacturing, electronics, pharmaceuticals, and consumer goods. Our expertise covers various sectors, ensuring tailored solutions for diverse regulatory needs.</p>
+                                </div>
+                                <div className="item-faqs-2 mb-30"><Link href='/'>
+                                    <h6 className="color-brand-2 mb-10 wow animate__animated animate__fadeIn">How long does the certification process take?</h6></Link>
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">The duration of the certification process depends on the specific requirements and complexity of the certification. Our team will provide you with an estimated timeline based on your needs and keep you updated throughout the process.</p>
+                                </div>
+                                
                             </div>
                         </div>
                     </div>

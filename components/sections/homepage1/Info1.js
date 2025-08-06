@@ -1,4 +1,7 @@
+import Accordion from "@/components/elements/Accordion";
 import Link from "next/link";
+import Newsletter1 from "../homepage2/Newsletter1";
+import News1 from "./News1";
 
 export default function Info1() {
     return (
@@ -70,8 +73,11 @@ export default function Info1() {
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </section>
+            
+            <News1/>
         </>
     )
 }
